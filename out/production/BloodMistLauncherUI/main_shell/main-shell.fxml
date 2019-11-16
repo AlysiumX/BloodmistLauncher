@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.control.ToolBar?>
 <?import javafx.scene.layout.StackPane?>
-<BorderPane styleClass="rounded-corners" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main_shell.MainShellController">
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main_shell.MainShellController">
     <top>
         <StackPane styleClass="title-bar">
             <Label styleClass="title" StackPane.alignment="TOP_CENTER" >BloodMist Launcher</Label>
