@@ -1,0 +1,45 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.StackPane?>
+<BorderPane styleClass="rounded-corners" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main_shell.MainShellController">
+    <top>
+        <StackPane styleClass="title-bar">
+            <Label styleClass="title" StackPane.alignment="TOP_CENTER" >BloodMist Launcher</Label>
+            <StackPane StackPane.alignment="TOP_RIGHT" style="-fx-max-width:60;">
+                <ImageView StackPane.alignment="TOP_LEFT" styleClass="title-control-item">
+                    <image>
+                        <Image url="@../icons/minimize-window-16.png" />
+                    </image>
+                </ImageView>
+                <ImageView StackPane.alignment="TOP_CENTER" styleClass="title-control-item">
+                    <image>
+                        <Image url="@../icons/maximize-window-16.png" />
+                    </image>
+                </ImageView>
+                <ImageView StackPane.alignment="TOP_RIGHT" styleClass="title-control-item" onMouseClicked="#closeButton">
+                    <image>
+                        <Image url="@../icons/close-window-16.png" />
+                    </image>
+                </ImageView>
+            </StackPane>
+        </StackPane>
+    </top>
+    <center>
+        <StackPane styleClass="body-section">
+
+        </StackPane>
+    </center>
+
+
+    <stylesheets>
+        <URL value="@main-shell.css" />
+    </stylesheets>
+</BorderPane>

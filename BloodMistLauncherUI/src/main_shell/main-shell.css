@@ -1,0 +1,37 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #ffffff;
+}
+
+.rounded-corners{
+    -fx-background-color: black;
+    -fx-background-radius: 300%;
+    -fx-alignment:center;
+}
+
+.red{
+    -fx-background-color: #ff0000;
+}
+
+.title-bar {
+    -fx-padding: 10px;
+    -fx-font-size: 20px;
+    -fx-background-color: #000000;
+}
+
+.title{
+    -fx-font-size: 15;
+    -fx-text-fill: #ff0000;
+}
+
+.title-control-item{
+    -fx-padding: 10px;
+}
+
+.body-section {
+    -fx-background-color: #ffffff;
+}
+
+
+
